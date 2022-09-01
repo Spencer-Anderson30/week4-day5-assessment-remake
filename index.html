@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <form id="person-form">
+      <label for="name">Name:</label>
+      <input id="name" type="text"/>
+      <label for="power">Power level:</label>
+      <input id="power" type="text"/>
+      <button>sumbit</button>
+    </form>
+
+    <form id="delete-form">
+      <label for="delete-name">Delete a person by name:</label>
+      <input id="delete-name" type="text"/>
+      <button>sumbit</button>
+    </form>
+
+    <form id="inc-form">
+      <label for="inc-name">Increment a person's power level by 100:</label>
+      <input id="inc-name" type="text"/>
+      <button>sumbit</button>
+    </form>
+
+    <section id="people"></section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
